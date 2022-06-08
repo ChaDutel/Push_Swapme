@@ -6,7 +6,17 @@
 /*   By: cdutel-l <cdutel-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/07 18:00:58 by cdutel-l          #+#    #+#             */
-/*   Updated: 2022/06/07 18:01:00 by cdutel-l         ###   ########.fr       */
+/*   Updated: 2022/06/08 17:06:29 by cdutel-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../includes/push_swap.h"
+
+int	main(int argc, char **argv)
+{
+	if (parsing(argc, argv) == -1)
+	{
+		write (2, "Error\n", 6);
+	}
+	return (0);
+}
