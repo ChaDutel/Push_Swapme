@@ -10,7 +10,8 @@ DIR_INCS = includes
 DIR_LIBFT = libft
 
 LST_SRCS = push_swap.c \
-		    parsing.c
+		    parsing.c \
+			utils.c
 
 LST_OBJS = $(LST_SRCS:.c=.o)
 
